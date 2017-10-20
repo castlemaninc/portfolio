@@ -1,0 +1,20 @@
+body {
+	background-color: dodgerblue;
+	font-family: Helvetica;
+	color: red;
+}
+
+nav {
+display: grid;
+
+}
+
+.navigation {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;	
+}
+
+.nav-link {
+	margin-right: auto
+}
