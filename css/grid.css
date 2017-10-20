@@ -1,0 +1,21 @@
+.container {
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr 1fr;
+	grid-template-rows: 100px 350px 100px;
+	grid-gap: 20px;
+}
+
+nav {
+	grid-column-start: 1;
+	grid-column-end: 5;
+}
+
+.main {
+	grid-column-start: 2;
+	grid-column-end:3;
+}
+
+footer {
+	grid-column-start: 1;
+	grid-column-end: 5;
+}
