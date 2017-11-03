@@ -1,13 +1,12 @@
 
 .container {
 	height: 100vh;
+	width: 100vw;
 	display: grid;
 	grid-template-columns: 200px 2fr 1fr 200px;
 	grid-template-rows: ;
-	grid-gap:10px;
-	
+	grid-gap:10px;	
 }
-
 
 header {	
 	grid-column-start: 1;
@@ -16,10 +15,16 @@ header {
    	grid-row-end: 2;
 }
 
-/*.main-header {
-	grid-column-start: 2;
-	grid-column-end: 4;
-}*/
+.main-header {
+	display: grid;
+	grid-template-columns: 200px 2fr 1fr 200px;
+	grid-gap:10px;
+}
+
+.name {
+	grid-column-start: 	2;
+	grid-column-end: 3;
+}
 
 .main-heading {
 	grid-column-start: 2;
@@ -34,8 +39,6 @@ header {
 	grid-row-start: 3;
    	grid-row-end: 4;
 }
-
-
 
 aside {
 	grid-column-start: 3;

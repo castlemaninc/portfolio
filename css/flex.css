@@ -6,4 +6,18 @@
 	flex-grow: 1;
 }
 
+.main-nav {
+	display: inline-flex;
+	justify-content: space-between;
+}
 
+.social {
+	display: flex;
+	flex-direction: column;	
+}
+
+.social-links {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}

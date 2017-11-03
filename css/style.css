@@ -3,11 +3,16 @@
 }
 
 body {
-	font-family: Helvetica;
+	font-family: 'Titillium Web', sans-serif;
+	line-height: 1.3em;
 }
 
 .container {
 	margin: 0 auto;
+}
+
+ .wrapper {
+	background-image: url('../img/crossword/crossword.png');
 }
 
 h1 { font-size: 3em; }
@@ -16,40 +21,65 @@ h3 { font-size: 1.75em; }
 h4 { font-size: 1.125em; }
 h5 { font-size: 1em; }
 
-/*h1, h2, h3, h4, h5 {
-	margin-bottom: 10px;
-}*/
-
-/*ul {
-	list-style-type:disc;
-	margin-left: 15px;
-}*/
 
 .name {
 	color: white;
+	font-family: 'Rock Salt', cursive
 }
 
-.main-header {
-	
+.main-header {	
 	background-color: #343a40;
 	height: 55px;
+	line-height: 55px;
+	margin-bottom: 10px;
 }
+
+
+.main-nav a {
+	text-decoration: none;	
+	color: white;
+}
+
+.main-nav a:hover {
+	color: dodgerblue;
+}
+
 
 .primary, .secondary {display: inline;}
 .secondary {margin-left: 5px;}
 
-.portfolio-image {
+
+
+.portfolio-image, .about-me {
 	margin-top: 5px;
+
 }
 
 .main-image {
-	width: 500px;
-	height: 350px;
+	width: 700px;
+	height: 450px;
 }
 
-/*aside {
+/*Aside*/
+.social {
+	margin-top: 5px;
 	padding: 10px;
-}*/
+	max-width: 100%;
+	height:auto;
+	background-color: dodgerblue;
+}
+
+.connect {
+	margin-bottom: 10px;
+}
+
+.social-links a {
+	text-decoration: none;	
+}
+
+.social-links :hover {
+	color: white;
+}
 
 .related-image {
 	width: 250px;
@@ -57,8 +87,9 @@ h5 { font-size: 1em; }
 }
 
 footer {
-	height: 40px;
-	line-height: 40px;
+	height: 100%;
+	min-height: 50px;
+	line-height: 50px;
 	background-color: #343a40;
 	color: white;
 	text-align: center;
