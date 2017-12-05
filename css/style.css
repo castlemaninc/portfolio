@@ -51,7 +51,7 @@ img {
 }
 
 a:hover {
-	color: dodgerblue;
+	color: dodgerblue;	
 }
 
 .primary, .secondary {display: inline;}
@@ -109,7 +109,20 @@ a:hover {
 	height: 150px;	
 }
 
+/*Contact*/
 
+.submit_btn {
+	background-color: dodgerblue;
+	color: white;
+	border-radius: 5px;
+	padding: 8px;
+	border: none;
+}
+
+.submit_btn:hover{
+	margin-top: 1px;
+	background-color: #1b81e5;	
+}
 
 footer {
 	height: 100%;
