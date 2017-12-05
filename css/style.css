@@ -17,6 +17,10 @@ a {
 	text-decoration: none;
 }
 
+img {
+	border-radius: 	5px;
+}
+
 .container {
 	margin: 0 auto;
 }
@@ -73,7 +77,7 @@ a:hover {
 /*Aside*/
 .self-portrait {
 	max-height: 200px;
-	max-width: 200px;
+	max-width: 200px;	
 }
 
 .social {
@@ -94,11 +98,18 @@ a:hover {
 	color: dodgerblue;	
 }
 
+/*Projects*/
+
+.project-heading {
+	margin-bottom: 10px;
+}
 
 .related-image {
 	max-width: 250px;
 	height: 150px;	
 }
+
+
 
 footer {
 	height: 100%;

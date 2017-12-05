@@ -26,27 +26,44 @@
 			</header>
 			<div class="main-heading"><h2 class="primary">Page Heading</h2><h3 class="secondary">Secondary Text</h3></div>
 			<div class="main">			
-				<div class="portfolio-image"><img src="http://placehold.it/750x500" class="main-image"></div>
+				<form id="contact_form">
+					  Name<br>
+					  <input id="name_input" type="text" name="name"><br><br>
+					  Email<br>
+					  <input id="email_input" type="email" name="email"><br><br>
+					  Message<br>
+					  <textarea id="text_area" rows="10" cols="80" name="message" form="usrform"></textarea><br>
+					  <input id="submit_btn" type="submit">
+				</form>	
 			</div>
 			<aside>
-				<h3>Project Description</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<div><img src="http://placehold.it/200x200" class="self-portrait"></div>
+				<div class="social">
+					<h3 class="connect">Connect With Me</h3>
+					<ul class="social-links">
+						<li><a href="https://github.com/castlemaninc" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a></li>
+						<li><a href="https://codepen.io/castlemaninc/" target="_blank"><i class="fa fa-codepen" aria-hidden="true" ></i> Codepen</a></li>
+						<li><a href="https://stackexchange.com/users/9933726/bryan-castleman" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i> Stack Overflow</a></li>						
+						<!-- <li><a href="https://stackexchange.com/users/9933726/bryan-castleman" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i> Stack Overflow</li> -->
+					</ul>
+				</div>			
 				<br>
-				<h3>Project Details</h3>
-				<ul>
-					<li>Lorem ipsum</li>
-					<li>dolor sit</li>
-					<li>adipiscing elit</li>
-					<li>eiusmod tempor</li>
-				</ul>
+				<div>
+					<address>
+						Bryan Castleman<br>
+						776 Lancaster Dr.<br>
+						Claremont, CA 91711<br>
+						<a href="tel:1-714-809-0603">(714) 809-0603</a> 
+					</address>
+				</div>	
 			</aside>
-			<div class="related-heading"><h3>Related Projects</h3></div>
+			<!-- <div class="related-heading"><h3>Related Projects</h3></div>
 			<div class="related-projects">
 				<div><img src="http://placehold.it/500x300" class="related-image"></div>
 				<div><img src="http://placehold.it/500x300" class="related-image"></div>
 				<div><img src="http://placehold.it/500x300" class="related-image"></div>
 				<div><img src="http://placehold.it/500x300" class="related-image"></div>			
-			</div>
+			</div> -->
 			<footer>Copyright &copy; Bryan Castleman 2017 | Built with CSS Grid &amp; Flexbox </footer>
 		</div>
 	</div>
