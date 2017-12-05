@@ -7,20 +7,23 @@ body {
 	line-height: 1.3em;
 }
 
+h1 { font-size: 3em; }
+h2 { font-size: 2.25em; }
+h3 { font-size: 1.75em; }
+h4 { font-size: 1.25em; }
+h5 { font-size: 1em; }
+
+a {
+	text-decoration: none;
+}
+
 .container {
 	margin: 0 auto;
 }
 
- .wrapper {
+.wrapper {
 	background-image: url('../img/crossword/crossword.png');
 }
-
-h1 { font-size: 3em; }
-h2 { font-size: 2.25em; }
-h3 { font-size: 1.75em; }
-h4 { font-size: 1.125em; }
-h5 { font-size: 1em; }
-
 
 .name {
 	color: white;
@@ -32,27 +35,34 @@ h5 { font-size: 1em; }
 	height: 55px;
 	line-height: 55px;
 	margin-bottom: 10px;
+	box-shadow: 0 5px 3px -3px #999;
 }
 
+.main-nav li {
+	padding-left: 15px;
+}
 
-.main-nav a {
-	text-decoration: none;	
+.main-nav a {		
 	color: white;
 }
 
-.main-nav a:hover {
+a:hover {
 	color: dodgerblue;
 }
-
 
 .primary, .secondary {display: inline;}
 .secondary {margin-left: 5px;}
 
+.skills-header-lg {
+	margin-bottom: 20px;
+}
 
+.skills-header-sm {
+	margin-bottom: 5px;
+}
 
 .portfolio-image, .about-me {
 	margin-top: 5px;
-
 }
 
 .main-image {
@@ -61,12 +71,15 @@ h5 { font-size: 1em; }
 }
 
 /*Aside*/
+.self-portrait {
+	max-height: 200px;
+	max-width: 200px;
+}
+
 .social {
-	margin-top: 5px;
-	padding: 10px;
+	margin-top: 5px;	
 	max-width: 100%;
-	height:auto;
-	background-color: dodgerblue;
+	height:auto;	
 }
 
 .connect {
@@ -78,12 +91,13 @@ h5 { font-size: 1em; }
 }
 
 .social-links :hover {
-	color: white;
+	color: dodgerblue;	
 }
 
+
 .related-image {
-	width: 250px;
-	height: 150px;
+	max-width: 250px;
+	height: 150px;	
 }
 
 footer {
@@ -93,4 +107,34 @@ footer {
 	background-color: #343a40;
 	color: white;
 	text-align: center;
+}
+
+
+@media only screen and (min-width: 1440px) {
+    /* styles for MacBook Pro-sized screens and larger */
+}
+
+@media only screen and (min-width: 1280px) {
+    /* styles for wide screens */
+    .related-image {
+	max-width: 200px;		
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+    /* styles for wide screens */
+    .related-image {
+	max-width: 175px;		
+	}
+}
+
+@media only screen and (min-width: 640px) {
+    /* styles for wide screens */
+    .related-image {
+	max-width: 175px;		
+	}
+}
+
+@media only screen and (max-width: 320px) {
+    /* styles for narrow screens */
 }

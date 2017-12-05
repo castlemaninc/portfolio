@@ -8,7 +8,8 @@
 
 .main-nav {
 	display: inline-flex;
-	justify-content: space-between;
+	/*justify-content: space-between;*/
+	justify-content: flex-end;	
 }
 
 .social {
