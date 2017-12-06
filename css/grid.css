@@ -4,8 +4,8 @@
 	width: 100vw;
 	display: grid;
 	grid-template-columns: 200px 2fr 1fr 200px;
-	grid-template-rows: ;
-	grid-gap:10px;	
+	/*grid-template-rows: ;*/
+	grid-gap:15px;	
 }
 
 header {	
