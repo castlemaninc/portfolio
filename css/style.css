@@ -3,11 +3,7 @@
 }
 
 html { 
-    background-image: url('../img/crossword/crossword.png'); 
-    /*-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;*/
+    background-image: url('../img/crossword/crossword.png');
 }
 
 body {
@@ -37,8 +33,6 @@ aside {
 .container {
 	margin: 0 auto;
 }
-
-
 
 
 .name {
@@ -126,20 +120,32 @@ a:hover {
 /*Project Slides*/
 
 .projectSlides {
-	display: none;
-	width: 100%;
-	
+	width: 100%;	
 }
 
-.projectThumbs {
+.project-thumbs {
 	width: 100%;
-	border: 1px solid black;
+	/*border: 0px solid black;*/	
+}
+
+#project1-thumb, #project2-thumb, #project4-thumb {
 	opacity: 0.5;
+} 
+
+#project-title1, #project-title2, #project-title4 {
+	display: none;
 }
 
-.projectThumbs:hover {
-	opacity: 1;
+#project-slide1, #project-slide2, #project-slide4 {
+	display: none;
 }
+
+#project-description1, #project-description2, #project-description4 {
+	display: none;
+}
+
+
+
 
 /*CONTACT PAGE*/
 
