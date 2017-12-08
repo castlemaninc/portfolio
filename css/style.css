@@ -80,7 +80,7 @@ a:hover {
 	
 }
 
-/*ASIDE*/
+/* ABOUT PAGE ASIDE*/
 .self-portrait {
 	max-height: 200px;
 	max-width: 200px;	
@@ -107,20 +107,19 @@ a:hover {
 /*PROJECTS PAGE*/
 
 
-
 .project-heading {
 	margin-bottom: 10px;
 }
 
-/*.related-image {
-	max-width: 250px;
-	height: 150px;	
-}*/
 
 /*Project Slides*/
 
-.projectSlides {
+.project-slides {
 	width: 100%;	
+}
+
+.project-slides, .project-descriptions, .project-titles {
+	display: none;
 }
 
 .project-thumbs {
@@ -128,23 +127,13 @@ a:hover {
 	/*border: 0px solid black;*/	
 }
 
-#project1-thumb, #project2-thumb, #project4-thumb {
+.half-opacity {
 	opacity: 0.5;
-} 
-
-#project-title1, #project-title2, #project-title4 {
-	display: none;
 }
 
-#project-slide1, #project-slide2, #project-slide4 {
-	display: none;
+.full-opacity {
+	opacity: 1;
 }
-
-#project-description1, #project-description2, #project-description4 {
-	display: none;
-}
-
-
 
 
 /*CONTACT PAGE*/

@@ -9,6 +9,8 @@
 	<link rel="stylesheet" type="text/css" href="css/flex.css">
 	<link href="https://fonts.googleapis.com/css?family=Rock+Salt|Titillium+Web" rel="stylesheet">
 	<script src="https://use.fontawesome.com/37ff87a2b5.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/logic.js"></script>
 </head>
 
 <body>
@@ -25,21 +27,21 @@
 				</div>			
 			</header>
 			<div class="main-heading">
-				<div id="project-title1"><h2 class="primary">Project1</h2><h3 class="secondary">Secondary Text</h3></div>
-				<div id="project-title2"><h2 class="primary">Project2</h2><h3 class="secondary">Secondary Text</h3></div>
-				<div id="project-title3"><h2 class="primary">Project3</h2><h3 class="secondary">Secondary Text</h3></div>
-				<div id="project-title4"><h2 class="primary">Project4</h2><h3 class="secondary">Secondary Text</h3></div>
+				<div id="project-title1" class="project-titles" style="display: block"><h2 class="primary">Project1</h2><h3 class="secondary">Secondary Text</h3></div>
+				<div id="project-title2" class="project-titles"><h2 class="primary">Project2</h2><h3 class="secondary">Secondary Text</h3></div>
+				<div id="project-title3" class="project-titles"><h2 class="primary">Project3</h2><h3 class="secondary">Secondary Text</h3></div>
+				<div id="project-title4" class="project-titles"><h2 class="primary">Project4</h2><h3 class="secondary">Secondary Text</h3></div>
 			</div>
 			<div class="main">			
 				<div class="portfolio-image">
-					<img src="img/image1.jpg" class="projectSlides" id="project-slide1">
-					<img src="img/image2.jpg" class="projectSlides" id="project-slide2">
-					<img src="img/image3.jpg" class="projectSlides" id="project-slide3">
-					<img src="img/image4.jpg" class="projectSlides" id="project-slide4">
+					<img src="img/image1.jpg" class="project-slides" id="project-slide1" style="display: block">
+					<img src="img/image2.jpg" class="project-slides" id="project-slide2">
+					<img src="img/image3.jpg" class="project-slides" id="project-slide3">
+					<img src="img/image4.jpg" class="project-slides" id="project-slide4">
 				</div>
 			</div>
 			<aside>
-				<div id="project-description1">
+				<div id="project-description1" class="project-descriptions" style="display: block">
 					<h3 class="project-heading">Project 1</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					<br>
@@ -51,7 +53,7 @@
 						<li>eiusmod tempor</li>
 					</ul>
 				</div>
-				<div id="project-description2">
+				<div id="project-description2" class="project-descriptions">
 					<h3 class="project-heading">Project 2</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					<br>
@@ -63,7 +65,7 @@
 						<li>eiusmod tempor</li>
 					</ul>
 				</div>
-				<div id="project-description3">
+				<div id="project-description3" class="project-descriptions">
 					<h3 class="project-heading">Project 3</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					<br>
@@ -75,7 +77,7 @@
 						<li>eiusmod tempor</li>
 					</ul>
 				</div>
-				<div id="project-description4">
+				<div id="project-description4" class="project-descriptions">
 					<h3 class="project-heading">Project 4</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					<br>
@@ -90,11 +92,11 @@
 			</aside>
 			<div class="related-heading"><h3>Projects</h3></div>
 			<div class="related-projects project-heading">
-				<div><img src="img/image1small.jpg" class="project-thumbs" id="project1-thumb"></div>
-				<div><img src="img/image2small.jpg" class="project-thumbs" id="project2-thumb"></div>
-				<div><img src="img/image3small.jpg" class="project-thumbs" id="project3-thumb"></div>
-				<div><img src="img/image4small.jpg" class="project-thumbs" id="project4-thumb"></div>			
-			</div>
+					<div><img src="img/image1small.jpg" class="project-thumbs half-opacity" id="project1-thumb" onclick="currentDiv(1)"></div>
+					<div><img src="img/image2small.jpg" class="project-thumbs half-opacity" id="project2-thumb" onclick="currentDiv(2)"></div>
+					<div><img src="img/image3small.jpg" class="project-thumbs half-opacity" id="project3-thumb" onclick="currentDiv(3)"></div>
+					<div><img src="img/image4small.jpg" class="project-thumbs half-opacity" id="project4-thumb" onclick="currentDiv(4)"></div>			
+			</div>			
 			<footer>Copyright &copy; <a class="contact-footer" href="contact.html">Bryan Castleman</a> 2017 | Built with CSS Grid &amp; Flexbox </footer>
 		</div>
 	</div>
