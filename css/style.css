@@ -41,7 +41,7 @@ aside {
 }
 
 .main-header {	
-	background-color: #343a40;
+	background-color: #0d47a1;
 	height: 55px;
 	line-height: 55px;
 	margin-bottom: 10px;
@@ -69,6 +69,8 @@ a:hover {
 
 .skills-header-sm {
 	margin-bottom: 5px;
+	color: #0d47a1;
+	color: #e65100;
 }
 
 .portfolio-image, .about-me {
@@ -101,6 +103,18 @@ a:hover {
 
 .social-links :hover {
 	color: dodgerblue;	
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 10px;
+	max-width: 300px;
+	min-width:200px;
+	min-height: 150px;	
+}
+
+.skills-area {
+	margin-bottom: 20px;
 }
 
 /*PROJECTS PAGE*/
@@ -138,8 +152,11 @@ a:hover {
 	opacity: 1;
 }
 
-
 /*CONTACT PAGE*/
+
+.inputs {
+	min-width: 80%;
+}
 
 .submit_btn {
 	background-color: dodgerblue;
@@ -160,7 +177,7 @@ footer {
 	height: 100%;
 	min-height: 50px;
 	line-height: 50px;
-	background-color: #343a40;
+	background-color: #02122b;
 	color: white;
 	text-align: center;
 }
