@@ -162,6 +162,16 @@ a:hover {
 	min-width: 80%;
 }
 
+input[type=text], input[type=email] {
+	height: 2em;
+    border: none;
+    border-bottom: 1px solid dodgerblue;
+}
+
+textarea {
+	border: 1px solid dodgerblue;
+}
+
 .submit_btn {
 	background-color: dodgerblue;
 	color: white;
