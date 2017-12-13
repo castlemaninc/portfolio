@@ -68,7 +68,7 @@ aside {
    	grid-row-end: 6; 
 }
 
-.related-projects {
+.project-thumb-area {
 	grid-column-start: 2;
 	grid-column-end: 4;
 	grid-row-start: 5;
