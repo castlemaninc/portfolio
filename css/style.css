@@ -177,6 +177,12 @@ textarea {
 	border: 1px solid dodgerblue;
 }
 
+textarea {
+  width: 80%;
+  min-width: 80%;
+  height: 150px;
+}
+
 .submit_btn {
 	background-color: dodgerblue;
 	color: white;
