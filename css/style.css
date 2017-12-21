@@ -114,7 +114,8 @@ a:hover {
 	padding: 10px;
 	max-width: 300px;
 	min-width:200px;
-	min-height: 150px;	
+	min-height: 150px;
+	margin: 10px;	
 }
 
 .skills-area {
@@ -144,10 +145,11 @@ a:hover {
 }
 
 .project-thumbs {
-	width: 100%;
-	margin-bottom: 10px;
+	width: auto;
+	margin: 10px;
 	box-shadow: 0px 5px 3px -3px #999;
 }
+
 
 .half-opacity {
 	opacity: 0.4;
