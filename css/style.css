@@ -148,6 +148,8 @@ a:hover {
 	width: auto;
 	margin: 10px;
 	box-shadow: 0px 5px 3px -3px #999;
+	border: 1px solid black;
+	max-width: 130px;
 }
 
 
