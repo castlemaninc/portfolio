@@ -24,19 +24,19 @@
 	<div class="container">
 		<!-- Navigation -->		
 		<header>
-			<div class="main-header">
+			<div class="main-header" id="header">
 				<h4 class="name">Bryan Castleman</h4>
 				<!--Nav Links -->
 				<ul class="main-nav">
 					<li><a href="index.html" class="nav-link">About</a></li>
-					<li><a href="projects.html" class="nav-link">Projects</a></li>
-					<li><a href="contact.html" class="nav-link">Contact</a></li>
+					<li><a href="#projects" class="nav-link">Projects</a></li>
+					<li><a href="#contact" class="nav-link">Contact</a></li>
 				</ul>				
 			</div>
 		</header>
 		<!-- Cover Image -->
 		<div class="cover-image">
-			<a href="https://placeholder.com"><img src="http://via.placeholder.com/1552x750"></a>
+			<a href="https://placeholder.com"><img src="http://via.placeholder.com/1552x650"></a>
 		</div>
 		<!-- About Section -->		
 		<div class="main-heading"><h2 class="primary">About Me</h2></div>
@@ -110,7 +110,7 @@
 		</div>
 
 		<!-- Projects Section -->
-		<div class="projects-heading">
+		<div class="projects-heading" id="projects">
 			<div id="project-title1" class="project-titles" style="display: block"><h2 class="primary">ApartmentSite</h2><p class="secondary"><a href="https://github.com/rissawyss/ApartmentSite" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> view on Github</a></p></div>
 			<div id="project-title2" class="project-titles"><h2 class="primary">Twitch.TV Guide</h2><p class="secondary"><a href="https://codepen.io/castlemaninc/pen/BwyZap" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i> view on Codepen</a></p></div>
 			<div id="project-title3" class="project-titles"><h2 class="primary">Squillo</h2><p class="secondary"><a href="https://github.com/rissawyss/Squillo" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> view on GitHub</a></p></div>
@@ -202,7 +202,7 @@
 		</div>
 		
 		<!-- Contact Section -->
-		<div class="contact-heading"><h2 class="primary">Contact Me</h2><!-- <h3 class="secondary">Secondary Text</h3> --></div>
+		<div class="contact-heading" id="contact"><h2 class="primary">Contact Me</h2><!-- <h3 class="secondary">Secondary Text</h3> --></div>
 		<div class="contact-form">
 			<form id="contact_form" method="POST" action="https://formspree.io/castlemaninc@gmail.com">
 				  Name<br>
@@ -237,7 +237,14 @@
 			</div>
 		</aside>
 		<!-- Footer Section -->
-		<footer>Copyright &copy; <a class="contact-footer" href="contact.html">Bryan Castleman</a> 2017 | Built with CSS Grid &amp; Flexbox </footer>
+		<footer>
+			<div>
+				<div>Copyright &copy; <a class="contact-footer" href="contact.html">Bryan Castleman</a> 2017 | Built with CSS Grid &amp; Flexbox </div>
+				<div class="back-to-top-link">
+					<a href="#header">Back to Top</a>
+				</div>
+			</div>
+		</footer>
 		
 	</div>
 </body>
