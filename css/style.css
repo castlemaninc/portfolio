@@ -38,7 +38,10 @@ aside {
 	margin: 0 auto;
 }
 
-
+#about, #projects, #contact {
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
 
 .name {
 	color: white;
