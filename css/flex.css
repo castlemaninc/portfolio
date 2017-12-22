@@ -2,7 +2,7 @@
 .skills-area {
 	display:inline-flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	/*justify-content: space-between;*/
 }
 
 .project-thumb-area {
