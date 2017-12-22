@@ -49,6 +49,10 @@ aside {
 	font-family: 'Rock Salt', cursive
 }
 
+.name a, .name a:hover, .name a:visited {
+	color: white;
+}
+
 .main-header {	
 	background-color: #0d47a1;
 	height: 55px;
