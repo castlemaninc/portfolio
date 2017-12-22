@@ -16,8 +16,7 @@ header {
 
 .main-header {
 	display: grid;
-	grid-template-columns: 200px 2fr 1fr 200px;
-	grid-gap:10px;
+	grid-template-columns: 200px 2fr 1fr 200px;	
 }
 
 .name {
@@ -25,25 +24,38 @@ header {
 	grid-column-end: 3;
 }
 
+.cover-image {
+	grid-column-start: 1;
+	grid-column-end: -1;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+
 .main-heading {
 	grid-column-start: 2;
 	grid-column-end: 3;
-	grid-row-start: 2;
-   	grid-row-end: 3;
+	/*grid-row-start: 2;
+   	grid-row-end: 3;*/
+   	grid-row-start: 3;
+   	grid-row-end: 4;
 }
 
 .main {
 	grid-column-start: 2;
 	grid-column-end: 3;
-	grid-row-start: 3;
-   	grid-row-end: 4;
+	/*grid-row-start: 3;
+   	grid-row-end: 4;*/
+   	grid-row-start: 4;
+   	grid-row-end: 5;
 }
 
 aside {
 	grid-column-start: 3;
 	grid-column-end: 4;
-	grid-row-start: 3;
-   	grid-row-end: 4;
+	/*grid-row-start: 3;
+   	grid-row-end: 4;*/
+   	grid-row-start: 4;
+   	grid-row-end: 5;
 }
 
 .related-heading {
@@ -56,30 +68,79 @@ aside {
 .skills-header {
 	grid-column-start: 2;
 	grid-column-end: 4;
-	grid-row-start: 4;
-   	grid-row-end: 5;
+	/*grid-row-start: 4;
+   	grid-row-end: 5;*/
+   	grid-row-start: 5;
+   	grid-row-end: 6;
 }
 
 
 .skills-area {
 	grid-column-start: 2;
 	grid-column-end: 4;
-	grid-row-start: 5;
-   	grid-row-end: 6;
+	/*grid-row-start: 5;
+   	grid-row-end: 6;*/
+   	grid-row-start: 6;
+   	grid-row-end: 7;
+}
+
+.projects-heading {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	/*grid-row-start: 2;
+   	grid-row-end: 3;*/
+   	grid-row-start: 7;
+   	grid-row-end: 8;
+}
+
+.projects {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	/*grid-row-start: 3;
+   	grid-row-end: 4;*/
+   	grid-row-start: 8;
+   	grid-row-end: 9;
+}
+
+.aside-projects {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	/*grid-row-start: 3;
+   	grid-row-end: 4;*/
+   	grid-row-start: 8;
+   	grid-row-end: 9;
 }
 
 .project-thumb-area {
 	grid-column-start: 2;
 	grid-column-end: 4;
-	grid-row-start: 5;
-   	grid-row-end: 6;
+	/*grid-row-start: 5;
+   	grid-row-end: 6;*/
+   	grid-row-start: 9;
+   	grid-row-end: 10;
+}
+
+.contact-heading {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+   	grid-row-end: 3;
+}
+
+.contact-form {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 3;
+   	grid-row-end: 4;
 }
 
 footer {
 	grid-column-start: 1;
 	grid-column-end: 5;
-	grid-row-start: 6;
-   	grid-row-end: 7;
+	/*grid-row-start: 6;
+   	grid-row-end: 7;*/
+   	grid-row-start: 12;
+   	grid-row-end: 13;
 }
 
 /* Smartphones (portrait and landscape) ----------- */

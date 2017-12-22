@@ -38,6 +38,10 @@ aside {
 	margin: 0 auto;
 }
 
+.cover-image {
+	z-index: -1;
+}
+
 
 .name {
 	color: white;
@@ -49,7 +53,8 @@ aside {
 	height: 55px;
 	line-height: 55px;
 	margin-bottom: 10px;
-	box-shadow: 0 5px 3px -3px #999;
+	/*box-shadow: 0 5px 3px -3px #999;*/
+	z-index: 1;
 }
 
 .main-nav li {
@@ -62,6 +67,13 @@ aside {
 
 a:hover {
 	color: dodgerblue;	
+}
+
+.cover-image {
+	width:100%;
+	height: 760px;
+	background-color: dodgerblue;
+
 }
 
 .primary, .secondary {display: inline;}
