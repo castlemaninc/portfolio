@@ -36,6 +36,7 @@ aside {
 
 .container {
 	margin: 0 auto;
+	position: absolute;
 }
 
 #about, #projects, #contact {
@@ -54,6 +55,7 @@ aside {
 	line-height: 55px;
 	margin-bottom: 10px;
 	box-shadow: 0 5px 3px -3px #000;
+	position: fixed;
 	z-index: 2;
 }
 
@@ -212,6 +214,7 @@ footer {
 	background-color: #02122b;
 	color: white;
 	text-align: center;
+	margin-top: 75px;
 }
 
 footer a {
