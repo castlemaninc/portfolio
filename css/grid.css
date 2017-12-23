@@ -14,6 +14,13 @@ header {
    	grid-row-end: 2;
 }
 
+.about-stripe {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-column-start: 1;
+	grid-column-end: -1;
+}
+
 .main-header {
 	display: grid;
 	grid-template-columns: 200px 2fr 1fr 200px;	

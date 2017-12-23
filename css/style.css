@@ -4,6 +4,7 @@
 
 html { 
     background-image: url('../img/crossword/crossword.png');
+    color: #36362B;
 }
 
 body {
@@ -18,11 +19,16 @@ h3 { font-size: 1.75em; }
 h4 { font-size: 1.25em; }
 h5 { font-size: 1.1em; }
 
+h1, h2, h3, h4, h5 {
+	color: #36362B
+}
+
 strong {
 	font-weight: bold;
 }
 
 a {
+	color: #5D917D;
 	text-decoration: none;
 }
 
@@ -55,6 +61,7 @@ aside {
 
 .main-header {	
 	background-color: #0d47a1;
+	background-color: #5D917D;
 	height: 55px;
 	line-height: 55px;
 	margin-bottom: 10px;
@@ -71,8 +78,8 @@ aside {
 	color: white;
 }
 
-a:hover {
-	color: dodgerblue;	
+a:hover, li a:hover {
+	color: #A8AD80;	
 }
 
 .cover-image {
@@ -84,6 +91,7 @@ a:hover {
 .primary, .secondary {display: inline;}
 .secondary {margin-left: 5px;}
 
+
 .skills-header-lg {
 	margin-bottom: 20px;
 }
@@ -91,7 +99,7 @@ a:hover {
 .skills-header-sm {
 	margin-bottom: 5px;
 	color: #0d47a1;
-	color: #e65100;
+	color: #e65100;	
 }
 
 .portfolio-image, .about-me {
@@ -123,7 +131,7 @@ a:hover {
 }
 
 .social-links :hover {
-	color: dodgerblue;	
+	color: #A8AD80;	
 }
 
 .card {
@@ -216,14 +224,16 @@ footer {
 	min-height: 50px;
 	line-height: 50px;
 	background-color: #02122b;
-	color: white;
+	background-color: #36362B;
+	color: #E5D3A8;
 	text-align: center;
 	margin-top: 75px;
 }
 
 footer a {
-	color: white;
+	color: #E5D3A8;	
 }
+
 
 
 @media only screen and (min-width: 1440px) {
