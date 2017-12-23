@@ -248,7 +248,7 @@
 		
 	</div>
 
-	<!-- Smooth Scrolling Animation source: W3Schools -->
+	<!-- Smooth Scrolling Script -->
 	<script>
 		$(document).ready(function(){
 			// Add smooth scrolling to all links
@@ -272,6 +272,23 @@
 				} // End if
 			});
 		});
+	</script>
+	<!-- Fading Navigation -->
+	<script>		                   
+        $(window).scroll(function(){                          
+            if ($(this).scrollTop() > 55) {
+                $('.main-header').fadeOut(500);
+            } else {
+                $('.main-header').fadeIn(500);
+            }
+            // Fade in navigation after scrolling stops
+            clearTimeout($.data(this, 'scrollTimer'));
+		    $.data(this, 'scrollTimer', setTimeout(function() {
+		        // do something
+		        $('.main-header').fadeIn(500);
+		        
+		    }, 750));
+        });
 	</script>
 </body>
 </html>
