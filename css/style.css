@@ -194,18 +194,18 @@ a:hover, li a:hover {
 input[type=text], input[type=email] {
 	height: 2em;
     border: none;
-    border-bottom: 1px solid dodgerblue;
+    border-bottom: 1px solid #36362B;
 }
 
 textarea {
-	border: 1px solid dodgerblue;
+	border: 1px solid #36362B;
 	width: 80%;
   min-width: 80%;
   height: 150px;
 }
 
 .submit_btn {
-	background-color: dodgerblue;
+	background-color: #A8AD80;
 	color: white;
 	border-radius: 5px;
 	padding: 8px;
@@ -214,7 +214,7 @@ textarea {
 
 .submit_btn:hover{
 	margin-top: 1px;
-	background-color: #1b81e5;	
+	background-color: #91a371;	
 }
 
 /*FOOTER*/
