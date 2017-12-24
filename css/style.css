@@ -32,10 +32,6 @@ a {
 	text-decoration: none;
 }
 
-img {	
-
-}
-
 aside {
 	margin-top: 5px;
 }
@@ -60,8 +56,9 @@ aside {
 }
 
 .main-header {	
-	background-color: #0d47a1;
+	/*background-color: #0d47a1;*/
 	background-color: #5D917D;
+	background-color: #1e2130;	
 	height: 55px;
 	line-height: 55px;
 	margin-bottom: 10px;
@@ -80,6 +77,41 @@ aside {
 
 a:hover, li a:hover {
 	color: #A8AD80;	
+}
+
+#fullscreen-hero {
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    min-height: 350px;
+    /*background-color: #252a30;*/
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.home-hero {
+    background-image: url(../img/portfoliocover1.jpg);
+}
+
+.hero-content {      
+    position: relative;
+    z-index: 9999;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
+
+.hero-text h1 {
+	position: relative;
+	color: white;
+	margin-top: 300px;
+	z-index: 10;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	text-shadow: 2px 2px black;
+	line-height: 1.8em;
 }
 
 .cover-image {
