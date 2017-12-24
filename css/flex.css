@@ -1,4 +1,11 @@
 
+
+.home-hero {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .skills-area {
 	display:inline-flex;
 	flex-wrap: wrap;
