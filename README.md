@@ -1,4 +1,14 @@
-# Personal Portfolio 
+# Bryan Castleman Web Developer Portfolio Site 
 
-## CSS Grid Layout
+## Live Link (If relevant)
+ - www.castleman.work 
+
+## Technologies Used
+- HTML, CSS, JavaScript 
+- CSS Grid
+- Flexbox
+- jQuery 
+
+
+
 
