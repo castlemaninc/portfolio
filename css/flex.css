@@ -1,12 +1,9 @@
 
-
 .home-hero {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-
-
 
 .project-thumb-area {
 	display: inline-flex;
