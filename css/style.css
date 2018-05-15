@@ -266,32 +266,21 @@ footer a {
 }
 
 
-
-@media only screen and (min-width: 1440px) {
-    /* styles for MacBook Pro-sized screens and larger */
-}
-
-@media only screen and (min-width: 1280px) {
-    /* styles for wide screens */
+@media only screen and (min-width: 1280px) {    
     .related-image {
 		max-width: 200px;		
 	}
 }
 
-@media only screen and (min-width: 1024px) {
-    /* styles for wide screens */
+@media only screen and (min-width: 1024px) {    
     .related-image {
 		max-width: 175px;		
 	}
 }
 
-@media only screen and (min-width: 640px) {
-    /* styles for wide screens */
-    .related-image {
-		max-width: 175px;		
-	}
-}
-
-@media only screen and (max-width: 320px) {
-    /* styles for narrow screens */
+@media only screen and (min-width: 769px) {
+    .hero-text {
+    	
+    }
+    
 }
