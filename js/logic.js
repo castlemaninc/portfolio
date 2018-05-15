@@ -30,7 +30,7 @@ $(document).ready(function(){
     clearTimeout($.data(this, 'scrollTimer'));
     $.data(this, 'scrollTimer', setTimeout(function() {      
       $('.main-header').fadeIn(500);     
-    }, 750));
+    }, 100));
   });
   
 });
