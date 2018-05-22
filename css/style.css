@@ -9,8 +9,7 @@ html {
 
 body {
 	font-family: 'Heebo', sans-serif;
-	line-height: 1.3em;
-	cursor: pointer;
+	line-height: 1.3em;	
 }
 
 h1 { font-size: 3em; }
@@ -28,6 +27,7 @@ strong {
 }
 
 a {
+	cursor: pointer;
 	color: #5D917D;
 	text-decoration: none;
 }
@@ -117,16 +117,22 @@ a:hover, li a:hover {
 }
 
 .angle-down {
+	z-index: 10;
 	position: absolute;	
 	bottom: 100px;
 	color: white;
-	text-shadow: 2px 2px 6px #000;	
+	text-shadow: 2px 2px 6px #000;
+	padding: 20px;	
+}
+
+.angle-down:hover {
+	color: white;
+	bottom: 95px;
 }
 
 .cover-image {
 	width:100%;
-	height: 650px;
-	z-index: -1;
+	height: 650px;	
 }
 
 .primary, .secondary {display: inline;}
