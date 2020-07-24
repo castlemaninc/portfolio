@@ -1,7 +1,7 @@
 # Bryan Castleman Web Developer Portfolio Site 
 
 ## Live Link 
- - www.castleman.work 
+ - www.castleman.work (currently disabled)
 
 ## Technologies Used
 - HTML, CSS, JavaScript 
